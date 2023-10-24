@@ -496,11 +496,12 @@ body {
   text-align: center;
   justify-self: center;
   margin-bottom: 2rem;
-  min-height: 18rem; / /* Adjust the height as needed to accommodate the content. */
+  min-height: 18rem; /* Adjust the height as needed to accommodate the content. */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 
 .testimonial__img {
   max-width: 10rem;
