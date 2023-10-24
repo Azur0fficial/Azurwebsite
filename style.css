@@ -487,6 +487,13 @@ body {
   column-gap: 1rem;
 }
 
+.testimonial__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  text-align: center; /* Align text to the center */
+}
+
 .testimonial__card {
   background-color: var(--color-bg-secondary);
   box-shadow: var(--box-shadow);
@@ -521,23 +528,6 @@ body {
 
 .testimonial__occupation {
   font-size: var(--fs-sm);
-}
-
-.testimonial__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center; 
-  text-align: left; 
-}
-
-.contact__wrapper {
-  border-top: 1px solid var(--color-border);
-  padding-top: 3rem;
-  text-align: center;
-}
-.testimonial__content {
-  text-align: center;
 }
 .contact__title {
   font-size: var(--fs-xxl);
