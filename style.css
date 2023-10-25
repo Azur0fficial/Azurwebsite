@@ -319,7 +319,7 @@ body {
 
 @media screen and (max-width: 968px) {
   .hero__img {
-    width: px;
+    width: 100%;
     justify-self: center;
   }
 }
